@@ -1,0 +1,12 @@
+CREATE DATABASE IF NOT EXISTS queens;
+
+USE queens;
+
+DROP TABLE IF EXISTS queens;
+	
+CREATE TABLE queens (
+	id INT(10) NOT NULL AUTO_INCREMENT,
+	first_name VARCHAR(25) NOT NULL,
+	last_name VARCHAR(25) NOT NULL,
+	PRIMARY KEY(id)
+	);
